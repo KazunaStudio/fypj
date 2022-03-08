@@ -7,5 +7,7 @@ Planning & Research - https://docs.google.com/document/d/1Mk8aehj1zYOGBcqMBEEjKt
 Tutorial/Useful Codes for React JS - https://github.com/iamshaunjp/Complete-React-Tutorial
 <br/>
 Project documentations: https://dev.azure.com/NanyangPoly/IND_Reframed/_wiki/wikis/FYPJ2022/4759/FYPJ2022
+<br/>
+WireFrame: https://www.figma.com/file/RNcHFgKzUMNsaudyfhbmsR/FYPJ-WIREFRAME?node-id=0%3A1
 
 
