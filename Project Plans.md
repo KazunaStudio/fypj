@@ -8,6 +8,7 @@ Tutorial/Useful Codes for React JS - https://github.com/iamshaunjp/Complete-Reac
 <br/>
 Project documentations: https://dev.azure.com/NanyangPoly/IND_Reframed/_wiki/wikis/FYPJ2022/4759/FYPJ2022
 <br/>
-WireFrame: https://www.figma.com/file/RNcHFgKzUMNsaudyfhbmsR/FYPJ-WIREFRAME?node-id=0%3A1
+WireFrame file: https://www.figma.com/team_invite/redeem/QphuSvBBMPGEzMYxzzYgYf
+
 
 
