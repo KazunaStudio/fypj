@@ -10,18 +10,16 @@ AuctionStartDatetime datetime,
 AuctionEndDatetime datetime,
 AuctionStartAmt int,
 AuctionEndAmt int,
-AuctionImg1 varchar(500),
-AuctionImg2 varchar(500),
-AuctionImg3 varchar(500)
+AuctionImg varchar(500) 
 )
 drop table dbo.AuctionFrames
 Truncate table dbo.AuctionFrames
 
 insert into dbo.AuctionFrames values(
-'Auction 1','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet eleifend ipsum.','Half rimmed','Oval','Plastic','Black','11/05/2022 16:37:52','11/10/2022 16:37:52','30','40','Specs_Logo.png','Specs_Logo.png','Specs_Logo.png')
+'Auction 1','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet eleifend ipsum.','Half rimmed','Oval','Plastic','Black','11/05/2022 16:37:52','11/10/2022 16:37:52','30','40','Specs_Logo.png')
 select * from dbo.AuctionFrames
 
-create procedure AllAuctionInfo as begin select AuctionId, AuctionName,AuctionDes,AuctionType,AuctionShape,AuctionMaterial,AuctionColour, AuctionStartDateTime ,AuctionEndDateTime, AuctionStartAmt, AuctionEndAmt,AuctionImg1,AuctionImg2,AuctionImg3 from dbo.AuctionFrames end
+create procedure AllAuctionInfo as begin select AuctionId, AuctionName,AuctionDes,AuctionType,AuctionShape,AuctionMaterial,AuctionColour, AuctionStartDateTime ,AuctionEndDateTime, AuctionStartAmt, AuctionEndAmt,AuctionImg from dbo.AuctionFrames end
 
 Drop Procedure AllAuctionInfo
  AllAuctionInfo
@@ -37,11 +35,9 @@ Create procedure InsertAuctionInfo(
 @AuctionEndDatetime datetime,
 @AuctionStartAmt int,
 @AuctionEndAmt int,
-@AuctionImg1 varchar(500),
-@AuctionImg2 varchar(500),
-@AuctionImg3 varchar(500)) as begin insert into dbo.AuctionFrames (AuctionName,AuctionDes,AuctionType,AuctionShape,AuctionMaterial,AuctionColour,AuctionStartDateTime,
-AuctionEndDateTime,AuctionStartAmt,AuctionEndAmt,AuctionImg1,AuctionImg2,AuctionImg3) values (@AuctionName,@AuctionDes,@AuctionType,@AuctionShape,@AuctionMaterial,@AuctionColour, @AuctionStartDatetime,
-@AuctionEndDateTime,@AuctionStartAmt,@AuctionEndAmt,@AuctionImg1,@AuctionImg2,@AuctionImg3) end
+@AuctionImg varchar(500)) as begin insert into dbo.AuctionFrames (AuctionName,AuctionDes,AuctionType,AuctionShape,AuctionMaterial,AuctionColour,AuctionStartDateTime,
+AuctionEndDateTime,AuctionStartAmt,AuctionEndAmt,AuctionImg) values (@AuctionName,@AuctionDes,@AuctionType,@AuctionShape,@AuctionMaterial,@AuctionColour, @AuctionStartDatetime,
+@AuctionEndDateTime,@AuctionStartAmt,@AuctionEndAmt,@AuctionImg) end
 
 Drop Procedure InsertAuctionInfo
 
@@ -55,9 +51,7 @@ Create procedure UpdateAuctionInfo(@AuctionId int ,@AuctionName varchar(500),
 @AuctionEndDatetime datetime,
 @AuctionStartAmt int,
 @AuctionEndAmt int,
-@AuctionImg1 varchar(500),
-@AuctionImg2 varchar(500),
-@AuctionImg3 varchar(500)) as begin update dbo.AuctionFrames set AuctionName=@AuctionName,AuctionDes=@AuctionDes,AuctionType=@AuctionType,AuctionShape=@AuctionShape,AuctionMaterial=@AuctionMaterial,AuctionColour=@AuctionColour,AuctionStartDateTime=@AuctionStartDateTime,AuctionEndDateTime=@AuctionEndDateTime,AuctionStartAmt=@AuctionStartAmt,AuctionEndAmt=@AuctionEndAmt,AuctionImg1=@AuctionImg1,AuctionImg2=@AuctionImg2, AuctionImg3=@AuctionImg3  where AuctionId=@AuctionId end
+@AuctionImg varchar(500)) as begin update dbo.AuctionFrames set AuctionName=@AuctionName,AuctionDes=@AuctionDes,AuctionType=@AuctionType,AuctionShape=@AuctionShape,AuctionMaterial=@AuctionMaterial,AuctionColour=@AuctionColour,AuctionStartDateTime=@AuctionStartDateTime,AuctionEndDateTime=@AuctionEndDateTime,AuctionStartAmt=@AuctionStartAmt,AuctionEndAmt=@AuctionEndAmt,AuctionImg=@AuctionImg  where AuctionId=@AuctionId end
 
 Drop Procedure UpdateAuctionInfo
 UpdateAuctionInfo
