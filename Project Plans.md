@@ -11,5 +11,7 @@ Project documentations: https://dev.azure.com/NanyangPoly/IND_Reframed/_wiki/wik
 WireFrame file: https://www.figma.com/team_invite/redeem/QphuSvBBMPGEzMYxzzYgYf
 <br/>
 Monday 21 March 2022 presentation slide : https://docs.google.com/presentation/d/10Gd6vRQtthYssym90LVWFPEObk58OvdXuq_0apKPvvQ/edit?usp=sharing
+<br/>
+Friday 8 Apr Presentation Slide: https://docs.google.com/presentation/d/14canT1zyM7Z4dlPfFcbJ_CHtVQ5Al5feD3DdMVmOdog/edit?usp=sharing
 
 
