@@ -1,5 +1,4 @@
 # FYPJ
-Project work
 
 The project is called Reframed and it is about creating a hybrid application. This application promotes the recycling of spectacles by selling/donating. Most spectacles are still in good condition however owners are unsure how to dispose of them. 
 
