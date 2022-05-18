@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fypj/static/css/main.1ac87493.css",
-    "main.js": "/fypj/static/js/main.05975448.js",
+    "main.js": "/fypj/static/js/main.d7f0af2a.js",
     "static/js/787.28cb0dcd.chunk.js": "/fypj/static/js/787.28cb0dcd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/fypj/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/fypj/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -12,11 +12,11 @@
     "static/media/Futura-Book-font.ttf": "/fypj/static/media/Futura-Book-font.ed19af444f0976dbaf41.ttf",
     "index.html": "/fypj/index.html",
     "main.1ac87493.css.map": "/fypj/static/css/main.1ac87493.css.map",
-    "main.05975448.js.map": "/fypj/static/js/main.05975448.js.map",
+    "main.d7f0af2a.js.map": "/fypj/static/js/main.d7f0af2a.js.map",
     "787.28cb0dcd.chunk.js.map": "/fypj/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ac87493.css",
-    "static/js/main.05975448.js"
+    "static/js/main.d7f0af2a.js"
   ]
 }
