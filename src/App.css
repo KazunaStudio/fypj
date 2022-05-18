@@ -1,0 +1,70 @@
+/* Do not touch this section A*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f6f4f5;
+}
+
+.App-link {
+  color: #797c7c;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* end of section A */
+
+
+/* Mapping Style & Navigation Bar*/
+.leaflet-container{
+  width: 100%;
+  height: 100%;
+}
+
+.color-nav{
+  background-color: #FBFCF8;
+}
+
+/* Highlighting the modules & fontstyle*/
+.actives:hover{
+  color: white;
+  background-color: black;
+}
+.fontstyle{
+  font-weight: bolder;
+  color: black;
+}
+
+/* Highlighting the editing modules*/
+ul.a {
+  list-style-type: square;
+}
+
+/* Highlighting the cart Icon when hover */
+.cart:hover{
+  background-color: #FBFCF8
+}

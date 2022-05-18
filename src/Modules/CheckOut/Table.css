@@ -1,0 +1,298 @@
+/* displaying modules */
+.collapsetable { 
+    width: 100%; 
+    border-collapse: collapse;
+	margin: auto;
+  }
+
+  .collapsetd{
+	margin: auto;
+	display: inline-table;
+  }
+  
+  .displayitem{
+	display: inline-table;
+	margin-right: 2%;
+	width: 33%;
+  }
+
+  .paymenttable{
+	margin:auto;
+	width:50%;
+	font-Size:20px;
+  }
+
+  .homeDisplay{
+	width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	background-color: white;
+  }
+
+/* Search Bar/Filter Style */
+.Bar{
+	background-color: #FBFCF8;
+	border: 1px solid #e0e1de;
+	border-radius: 5%;
+	outline: none;
+}
+.Btnfilter{
+	outline: none;
+	background-color: transparent;
+	border-radius: 5%;
+}
+
+/* button style */
+.roundButton{
+		border-radius: 50%;
+	}
+.buttonSize{
+	width: auto;
+	height: 30px;
+	font-size: small;
+}
+.buttonColour{
+	  background-color: rgb(75, 140, 238);
+	  color: white;
+	  border-radius: 5%;
+  }
+
+.buttonColour:Hover{
+	background-color: rgb(75, 118, 183);
+	color: white;
+  }
+
+  .buttonColour2{
+	background-color: rgb(246, 246, 114);
+	color: black;
+	border-radius: 5%;
+}
+
+.buttonColour2:Hover{
+  background-color: rgb(189, 189, 99);
+  color: black;
+}
+
+  .leftAlign{
+	width: auto;
+	border-radius: 10%;
+	background-color: rgb(247, 240, 240);
+	margin-left:auto;
+	margin-right: 5%;
+	border-color: rgb(247, 240, 240);
+  }
+
+/* About Us Modules */
+  .imgLogo
+  {
+	  max-width: 100%;
+	  min-width: auto;
+	  height: 120px;
+  }
+
+  .imageSize{
+	border: 1px Solid black;
+	width: 150px;
+	height: 150px;
+  }
+
+/* Navigation */
+a{
+  color: grey;
+}
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Charity Modules */
+.each-fade {
+	width: 100%;
+  }
+  
+  .each-fade > div {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .each-fade > div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .each-fade p {
+	width: 25%;
+	font-size: 1em;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+  }
+
+  .leaflet-container {
+	width: 80%;
+    height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Navigation */
+.PUimageSize{
+	width: 150px;
+	height: 150px;
+}
+
+.cart{
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	border: 1px solid rgb(246, 243, 243);
+	border-radius: 50%;
+}
+
+.cart:hover{
+	background-color: rgb(234, 232, 232);
+	width: 40px;
+	height: 40px;
+	border: 1px solid rgb(246, 243, 243);
+	border-radius: 50%;
+}
+
+.Logins{
+	background-color: white;
+	height: 40px;
+	border: 1px solid rgb(246, 243, 243);
+	border-radius: 15%;
+}
+
+.Logins:hover{
+	background-color: rgb(234, 232, 232);
+	height: 40px;
+	border: 1px solid rgb(246, 243, 243);
+	border-radius: 15%;
+}
+
+.center{
+	margin:10%;
+	width:auto;
+}
+
+/* Auction Modules */
+.AuctionEnd{
+	background-color: rgb(213, 107, 107);
+	color:black;
+	text-align:Center;
+	width:100%;
+	border-radius: 5%;
+	font-size:20px;
+}
+
+.AuctionStart{
+	background-color:rgb(144, 242, 152);
+	color:black;
+	border-radius: 10%;
+	text-align:Center;
+	width:100%;
+	font-size:20px;
+}
+.ContainerS{
+    border: 1px solid rgb(203, 201, 201);
+    width: 30%;
+    margin: auto;
+	border-radius: 5%;
+  }
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Displaying */
+	table, thead, tbody, th, td, tr { 
+		display: block;
+  }
+	
+	td { 
+		border: none;
+		position: relative;
+    width: 100%;
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+	.collapsetd{
+		margin: auto;
+		display: inline;
+
+	  }
+	/* Charity Modules */
+	.leaflet-container {
+	width: 100%;
+    height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	/* About Us Modules */
+	.imageSize{
+		width: 150px;
+		height: 150px;
+	}
+	.bannerSize{
+		width: 100%;
+		height: 150px;
+	}
+	.containerSize{
+		width: 100%;
+		height: 160px;
+	}
+	.popupsize{
+		width: 200px;
+		height: 200px;
+	}
+	.PUimageSize{
+		width: 100px;
+		height: 100px;
+	}
+
+	.PUfontSize{
+		font-size: small;
+	}
+	/* Auction Modules */
+	.displayitem{
+	display: inline-table;
+	margin: auto;
+	width: auto;
+	}
+	.homeDisplay{
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		background-color: white;
+	  }
+	  .paymenttable{
+		margin:auto;
+		width:100%;
+		font-Size:20px;
+	  }
+}
+
+

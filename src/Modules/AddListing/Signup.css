@@ -1,0 +1,110 @@
+/* Line */
+.line {
+  width: 50%; 
+  text-align: center; 
+  border-bottom: 1px solid rgb(211, 200, 200); 
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin: auto;
+ 
+} 
+
+.line span { 
+   background:#fff; 
+   padding:0 10px; 
+   width: 50%;
+}
+
+/* Table */
+.center{
+  margin: auto;
+}
+/* Button */
+.ButtonS{
+    background-color: lightgrey;
+	  border: 1px solid rgb(191, 194, 191);
+	  color: black;
+}
+.ButtonS:Hover{
+	background-color: rgb(168, 167, 167);
+	border: 1px solid rgb(194, 191, 191);
+	color: black;
+  }
+
+  /* Form */
+  form{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .ContainerS{
+    border: 1px solid lightgrey;
+    width: 100%;
+  }
+
+  .bar{
+      width: 50%;
+      margin: auto;
+  }
+  .Divline{
+    width: 100%;
+    margin: auto;
+  }
+
+  /* link */
+.click{
+  color: black;
+}
+
+.click:hover{
+  color: rgb(102, 94, 94);
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    /* Form */
+    form{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+      }
+    .Signup {
+     padding: 60px 0;
+    }
+  
+    .Signup form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+    .bar{
+        width: 100%;
+        margin: auto;
+    }
+    /* Form */
+    .ContainerS{
+      border: 1px solid lightgrey;
+      width: 100%;
+    }
+    /* Line */
+  .line {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(211, 200, 200); 
+    line-height: 0.1em;
+    margin: 5px 0 10px; 
+  } 
+  
+  .line span { 
+     background:#fff; 
+     padding:0 10px; 
+     width: 100%;
+  }
+  
+  }
