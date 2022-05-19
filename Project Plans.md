@@ -10,3 +10,5 @@ Project documentations: https://dev.azure.com/NanyangPoly/IND_Reframed/_wiki/wik
 <br/>
 WireFrame: https://www.figma.com/file/RNcHFgKzUMNsaudyfhbmsR/FYPJ-WIREFRAME?node-id=0%3A1
 WireFrame file: https://www.figma.com/team_invite/redeem/QphuSvBBMPGEzMYxzzYgYf
+Final Presentation Slides:
+https://docs.google.com/presentation/d/1dX3hq66x5iNRcwIz8ttOAEQl5MmYDPQQkPWNihZy8iM/edit?usp=sharing
