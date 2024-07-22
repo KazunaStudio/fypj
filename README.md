@@ -1,6 +1,6 @@
-# REFRAMED <br/> <b>Disclaimer:</b> <br/> This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
+# REFRAMED
 
-
+<b>Disclaimer:</b> <br/> This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
 
 The project is called Reframed and it is about creating a hybrid application. This application promotes the recycling of spectacles by selling/donating. Most spectacles are still in good condition however owners are unsure how to dispose of them. 
 
