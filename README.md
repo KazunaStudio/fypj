@@ -1,7 +1,8 @@
 # REFRAMED
 
 <b>Disclaimer:</b> 
-This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click <a herf="KazunaStudio.github.io/fypj/">here</a> 
+This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, visit to KazunaStudio.github.io/fypj/
+<br/>
 <b>Do not click the link to the side, it will not work.</b>
 
 The project is called Reframed and it is about creating a hybrid application. This application promotes the recycling of spectacles by selling/donating. Most spectacles are still in good condition however owners are unsure how to dispose of them. 
