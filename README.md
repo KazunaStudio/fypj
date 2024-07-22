@@ -1,5 +1,4 @@
-# REFRAMED <br/> <b>Disclaimer:</b> 
-This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
+# REFRAMED <br/> <b>Disclaimer:</b> <br/> This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
 
 
 
