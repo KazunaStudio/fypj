@@ -1,7 +1,5 @@
 # REFRAMED
 
-<b>Disclaimer:</b> <br/> This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
-
 The project is called Reframed and it is about creating a hybrid application. This application promotes the recycling of spectacles by selling/donating. Most spectacles are still in good condition however owners are unsure how to dispose of them. 
 
 The reasons for a change in the spectacle is because either it is an outdated style or there was a change in degree.
@@ -15,3 +13,5 @@ The application is created based on the point of view of a seller or buyer. Sinc
 <b>System Architecture</b>
 <br/>
 There is 3 software that the app is using. For the database, the app uses Microsoft SQL Server Management Studio 18 to store data, for the backend such as CRUD functions and loading images, the app uses ASP .NET Core Web API(Visual Studio 2022) and lastly for the front-end, the app uses React JS(Visual Studio Code) to run.
+
+<b>Disclaimer:</b> <br/> This project is a final year project using third party software to be a dynamic application. If you would like to take a look at the static part of the application, click the link on the right, under the project work.
